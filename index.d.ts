@@ -44,6 +44,7 @@ export interface AxiosRequestConfig {
   url?: string;
   method?: Method;
   baseURL?: string;
+  whitelist?: any;
   transformRequest?: AxiosTransformer | AxiosTransformer[];
   transformResponse?: AxiosTransformer | AxiosTransformer[];
   headers?: any;
